@@ -1,4 +1,4 @@
-variable "project_name" {Add commentMore actions
+variable "project_name" {
     default = "expense"
 }
 
