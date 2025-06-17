@@ -1,4 +1,4 @@
-/* output "azs_info" {Add commentMore actions
+/* output "azs_info" {
     value = module.vpc.azs_info
 } */
 

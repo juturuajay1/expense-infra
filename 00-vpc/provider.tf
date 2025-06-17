@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     
     bucket = "82s-ajayreddy-tf-state-dev"
-    key    = "expense-cicd" # you should have unique keys within the bucket, same key should not be used other repos or tf project.
+    key    = "expense-dev-eks-vpc" # you should have unique keys within the bucket, same key should not be used other repos or tf project.
     region = "us-east-1"
     dynamodb_table = "82s-ajayreddy-tf-state-dev"
   }
